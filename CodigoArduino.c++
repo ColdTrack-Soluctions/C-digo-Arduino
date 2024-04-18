@@ -16,7 +16,4 @@ temperatura = (float(analogRead(pinosensorLM35))*5/(1023))/0.01;
   Serial.println(digitalRead(pinoSensorTCRT5000));
   delay(1000);
   
-
  }
- 
-código quase oficial
